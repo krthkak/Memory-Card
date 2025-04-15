@@ -44,17 +44,33 @@
 .container{
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+}
+
+img{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 body{
-  background-color: black;
+  background-color: rgb(243, 245, 230);
+}
+
+
+img:hover{
+  border: 2px solid green;
+  box-shadow: 2px 2px 10px grey;
 }
 
 
 .score-card{
   display: flex;
-  color: white;
+  color: rgb(0, 0, 0);
   gap: 20px;
   justify-content: center;
   margin: 20px;
+  font: bolder;
 }

@@ -54,8 +54,9 @@ function App() {
       {
         imageList.map((item) => {
         return (<>
-            <img src={item} alt="" width="200px" height="auto"
+        <img src={item} alt="" width="200px" height="auto"
             onClick={() => onClickHandler(item)}/>
+            
           </>)
         })
       }
